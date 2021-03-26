@@ -31,6 +31,7 @@ namespace QuickApp.Controllers
             _unitOfWork = unitOfWork;
             _logger = logger;
             _emailSender = emailSender;
+            
         }
 
 
@@ -84,6 +85,7 @@ namespace QuickApp.Controllers
         [HttpPost]
         public void Post([FromBody]string value)
         {
+        return value;
         }
 
 
